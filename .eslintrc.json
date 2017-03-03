@@ -1,0 +1,8 @@
+{
+    "root": true,
+    "extends": ["mysticatea", "mysticatea/browser", "mysticatea/node"],
+    "rules": {
+        "no-console": ["error", {"allow": ["assert", "error"]}],
+        "new-cap": ["error", {"capIsNewExceptions": ["EventTargetShim"]}]
+    }
+}
